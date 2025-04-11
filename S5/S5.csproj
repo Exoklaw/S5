@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+        <LangVersion>7.3</LangVersion>
+
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <!--<VersionSuffix></VersionSuffix>-->
+        <Authors>Exoklaw</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Mono.Posix.NETStandard" Version="1.0.0" />
+        <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="9.0.4" />
+    </ItemGroup>
+
+</Project>
